@@ -13,7 +13,7 @@ Use in your code as follows:
 
 ```scala
 import me.yuhuan.taskmgr.client._
-implicit val taskMgr = TaskMgr.of("https://taskmgr-service.herokuapp.com")
+implicit val taskMgr = TaskMgr.of("url-to-taskmgr-server")
 val t = Task.of(
   name = "A Scala Task", 
   description = "A task for demo purpose", 
